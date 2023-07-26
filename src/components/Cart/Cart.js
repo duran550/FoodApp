@@ -89,6 +89,7 @@ const Cart = (props) => {
   const isSubmittingModalContent = (
     <React.Fragment>
       <div className={classes.ldsspinner}>
+        <span>Loading...</span>
         <div></div>
         <div></div>
         <div></div>
